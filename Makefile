@@ -51,6 +51,7 @@ endif
 #DEFINES=-DAUTOCONF
 #LIBS=-ltermcap			# BSD
 LIBS=-lcurses			# SYSV
+#LIBS=-lncurses			# openSUSE 
 #LIBS=-ltermlib
 #LIBS=-L/usr/lib/termcap -ltermcap
 LFLAGS=-hbx
